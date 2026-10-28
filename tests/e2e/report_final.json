@@ -1,0 +1,1717 @@
+{
+  "timestamp": "2026-10-28T01:55:43Z",
+  "base_url": "http://127.0.0.1:18800",
+  "total_passed": 278,
+  "total_failed": 0,
+  "total_errors": 0,
+  "total_skipped": 0,
+  "total_duration_s": 0.0374,
+  "tier_summaries": [
+    {
+      "tier": 1,
+      "total": 115,
+      "passed": 115,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_s": 0.0022
+    },
+    {
+      "tier": 2,
+      "total": 115,
+      "passed": 115,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_s": 0.0032
+    },
+    {
+      "tier": 3,
+      "total": 36,
+      "passed": 36,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_s": 0.0007
+    },
+    {
+      "tier": 4,
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_s": 0.0098
+    }
+  ],
+  "records": [
+    {
+      "test_id": "test_tier1_features.TestF01UniverseSeeding.test_f01_01_sp500_seed_constituents",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF01UniverseSeeding.test_f01_02_nasdaq100_seed_constituents",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF01UniverseSeeding.test_f01_03_russell1000_seed_constituents",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF01UniverseSeeding.test_f01_04_multi_index_deduplication",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF01UniverseSeeding.test_f01_05_offline_fallback_seed_resilience",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF02MarketDataIngestion.test_f02_01_yahoo_v8_chart_schema_parser",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF02MarketDataIngestion.test_f02_02_batch_chunking_strategy",
+      "status": "PASS",
+      "duration_s": 0.0001,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF02MarketDataIngestion.test_f02_03_stooq_fallback_parser",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF02MarketDataIngestion.test_f02_04_exponential_backoff_jitter",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF02MarketDataIngestion.test_f02_05_circuit_breaker_resilience",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF03SecEdgarIngestion.test_f03_01_cik_zero_padding",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF03SecEdgarIngestion.test_f03_02_sec_user_agent_format",
+      "status": "PASS",
+      "duration_s": 0.0001,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF03SecEdgarIngestion.test_f03_03_roe_extraction_from_gaap",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF03SecEdgarIngestion.test_f03_04_free_cash_flow_calculation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF03SecEdgarIngestion.test_f03_05_debt_to_equity_calculation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF04PersistentDiskCache.test_f04_01_sqlite_wal_pragmas",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF04PersistentDiskCache.test_f04_02_sqlite_schema_universe_table",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF04PersistentDiskCache.test_f04_03_sqlite_schema_screener_signals",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF04PersistentDiskCache.test_f04_04_duckdb_daily_quotes_schema",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF04PersistentDiskCache.test_f04_05_cache_invalidation_ttl",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF05TechnicalIndicators.test_f05_01_wilder_atr_exact_math",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF05TechnicalIndicators.test_f05_02_wilder_rsi_bounds",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF05TechnicalIndicators.test_f05_03_bollinger_bands_bandwidth",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF05TechnicalIndicators.test_f05_04_macd_line_and_signal",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF05TechnicalIndicators.test_f05_05_sma_stage2_alignment",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF06MultiStrategyEngine.test_f06_01_strategy1_momentum_breakout",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF06MultiStrategyEngine.test_f06_02_strategy2_earnings_pead",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF06MultiStrategyEngine.test_f06_03_strategy3_oversold_bounce",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF06MultiStrategyEngine.test_f06_04_strategy4_quality_fcf",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF06MultiStrategyEngine.test_f06_05_multi_strategy_tagging",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF07TradeSetupModeling.test_f07_01_entry_price_specification",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF07TradeSetupModeling.test_f07_02_stop_loss_atr_cushion",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF07TradeSetupModeling.test_f07_03_target_price_return_bounds",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF07TradeSetupModeling.test_f07_04_minimum_risk_reward_ratio",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF07TradeSetupModeling.test_f07_05_rejection_of_sub_2_rr",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF08BacktestVerifier.test_f08_01_execution_at_open_t_plus_1",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF08BacktestVerifier.test_f08_02_slippage_penalty_application",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF08BacktestVerifier.test_f08_03_conservative_stop_loss_priority",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF08BacktestVerifier.test_f08_04_gap_down_fill_at_open",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF08BacktestVerifier.test_f08_05_max_holding_period_time_stop",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF09TokenomistDesignSystem.test_f09_01_background_abyss_token",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF09TokenomistDesignSystem.test_f09_02_surface_and_glass_tokens",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF09TokenomistDesignSystem.test_f09_03_semantic_accent_colors",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF09TokenomistDesignSystem.test_f09_04_font_family_rules",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF09TokenomistDesignSystem.test_f09_05_glassmorphism_card_box_shadow",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF10MarketPulseBentoCards.test_f10_01_market_indices_payload_schema",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF10MarketPulseBentoCards.test_f10_02_top_opportunity_card_metrics",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF10MarketPulseBentoCards.test_f10_03_active_signals_counter_breakdown",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF10MarketPulseBentoCards.test_f10_04_expected_return_average_metric",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF10MarketPulseBentoCards.test_f10_05_engine_status_pulse_indicator",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF11FilterRibbon.test_f11_01_filter_by_strategy",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF11FilterRibbon.test_f11_02_filter_by_sector",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF11FilterRibbon.test_f11_03_filter_by_min_return_threshold",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF11FilterRibbon.test_f11_04_filter_by_market_cap_tier",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF11FilterRibbon.test_f11_05_column_sorting_by_risk_reward",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF12VirtualizedScreenerTable.test_f12_01_table_columns_schema",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF12VirtualizedScreenerTable.test_f12_02_virtual_window_slice_calculation",
+      "status": "PASS",
+      "duration_s": 0.0002,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF12VirtualizedScreenerTable.test_f12_03_tabular_nums_class_applied",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF12VirtualizedScreenerTable.test_f12_04_inline_sparkline_svg_path_generator",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF12VirtualizedScreenerTable.test_f12_05_row_click_modal_payload",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF13TradingViewCharting.test_f13_01_lightweight_chart_config",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF13TradingViewCharting.test_f13_02_candlestick_data_mapping",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF13TradingViewCharting.test_f13_03_volume_sub_pane_scale",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF13TradingViewCharting.test_f13_04_target_price_line_spec",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF13TradingViewCharting.test_f13_05_entry_and_stop_price_lines",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF14FactorRadarChart.test_f14_01_radar_axes_dimensions",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF14FactorRadarChart.test_f14_02_radar_score_normalization_0_to_100",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF14FactorRadarChart.test_f14_03_dual_polygon_rendering_stock_vs_sector",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF14FactorRadarChart.test_f14_04_radar_styling_tokens",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF14FactorRadarChart.test_f14_05_composite_factor_score_calculation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF15CatalystTimeline.test_f15_01_catalyst_event_types",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF15CatalystTimeline.test_f15_02_chronological_ordering",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF15CatalystTimeline.test_f15_03_color_coding_by_type",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF15CatalystTimeline.test_f15_04_urgency_highlight_under_5_days",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF15CatalystTimeline.test_f15_05_post_earnings_pead_flagging",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF16StockModal.test_f16_01_modal_split_layout_panels",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF16StockModal.test_f16_02_trade_setup_blueprint_data",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF16StockModal.test_f16_03_criteria_checklist_verification",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF16StockModal.test_f16_04_position_sizing_calculator",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF16StockModal.test_f16_05_modal_open_close_state_machine",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF17PerformanceOptimization.test_f17_01_bundle_size_budget",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF17PerformanceOptimization.test_f17_02_lazy_loading_heavy_charts",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF17PerformanceOptimization.test_f17_03_static_cache_headers",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF17PerformanceOptimization.test_f17_04_tanstack_query_cache_config",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF17PerformanceOptimization.test_f17_05_cold_page_load_target_latency",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF18DockerfilePackaging.test_f18_01_multi_stage_structure",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF18DockerfilePackaging.test_f18_02_unprivileged_uid_10001",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF18DockerfilePackaging.test_f18_03_zero_node_runtime_in_production",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF18DockerfilePackaging.test_f18_04_healthcheck_directive",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF18DockerfilePackaging.test_f18_05_internal_port_exposure",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF19DockerComposeGuards.test_f19_01_memory_cap_1024m",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF19DockerComposeGuards.test_f19_02_cpu_cap_0_5",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF19DockerComposeGuards.test_f19_03_loopback_port_binding",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF19DockerComposeGuards.test_f19_04_pids_limit_cap",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF19DockerComposeGuards.test_f19_05_bounded_json_logging",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF20CaddyReverseProxy.test_f20_01_domain_routing",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF20CaddyReverseProxy.test_f20_02_health_probe_auth_bypass",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF20CaddyReverseProxy.test_f20_03_basic_auth_credential_hash",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF20CaddyReverseProxy.test_f20_04_http_security_headers",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF20CaddyReverseProxy.test_f20_05_reverse_proxy_target_loopback",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF21DeploymentAutomation.test_f21_01_preflight_memory_disk_thresholds",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF21DeploymentAutomation.test_f21_02_preflight_port_check",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF21DeploymentAutomation.test_f21_03_deploy_script_idempotent_steps",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF21DeploymentAutomation.test_f21_04_caddy_validate_pre_reload_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF21DeploymentAutomation.test_f21_05_rollback_script_safeguard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF22OpaqueBoxTestSuite.test_f22_01_tier_structure_defined",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF22OpaqueBoxTestSuite.test_f22_02_runner_exit_code_contract",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF22OpaqueBoxTestSuite.test_f22_03_runner_cli_argument_parsing",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF22OpaqueBoxTestSuite.test_f22_04_json_report_schema",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF22OpaqueBoxTestSuite.test_f22_05_self_contained_test_isolation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF23AdversarialHardening.test_f23_01_sql_injection_sanitization",
+      "status": "PASS",
+      "duration_s": 0.0001,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF23AdversarialHardening.test_f23_02_path_traversal_sanitization",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF23AdversarialHardening.test_f23_03_zero_volume_division_by_zero_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF23AdversarialHardening.test_f23_04_negative_earnings_roe_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier1_features.TestF23AdversarialHardening.test_f23_05_forensic_no_facade_verification",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB01UniverseSeedingBoundaries.test_b01_01_empty_seed_fallback",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB01UniverseSeedingBoundaries.test_b01_02_corrupted_seed_json_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB01UniverseSeedingBoundaries.test_b01_03_duplicate_share_class_normalization",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB01UniverseSeedingBoundaries.test_b01_04_oversized_universe_protection",
+      "status": "PASS",
+      "duration_s": 0.0011,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB01UniverseSeedingBoundaries.test_b01_05_unicode_company_name_handling",
+      "status": "PASS",
+      "duration_s": 0.0005,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB02MarketDataBoundaries.test_b02_01_insufficient_bars_skip",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB02MarketDataBoundaries.test_b02_02_timeout_resilience_simulation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB02MarketDataBoundaries.test_b02_03_http_429_backoff_boundary",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB02MarketDataBoundaries.test_b02_04_malformed_yahoo_v8_response",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB02MarketDataBoundaries.test_b02_05_stooq_anti_bot_html_detection",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB03SecEdgarBoundaries.test_b03_01_empty_user_agent_forbidden",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB03SecEdgarBoundaries.test_b03_02_negative_equity_insolvency_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB03SecEdgarBoundaries.test_b03_03_zero_revenue_acceleration_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB03SecEdgarBoundaries.test_b03_04_delayed_filing_stale_warning",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB03SecEdgarBoundaries.test_b03_05_sec_rate_limit_throttle",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB04DiskCacheBoundaries.test_b04_01_read_only_fs_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB04DiskCacheBoundaries.test_b04_02_sqlite_busy_timeout_pragma",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB04DiskCacheBoundaries.test_b04_03_table_idempotent_creation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB04DiskCacheBoundaries.test_b04_04_corrupted_duckdb_fallback",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB04DiskCacheBoundaries.test_b04_05_stale_quote_refresh_detection",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB05TechnicalIndicatorsBoundaries.test_b05_01_zero_volatility_zero_atr",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB05TechnicalIndicatorsBoundaries.test_b05_02_unbroken_rally_rsi_100",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB05TechnicalIndicatorsBoundaries.test_b05_03_unbroken_crash_rsi_0",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB05TechnicalIndicatorsBoundaries.test_b05_04_flash_crash_bollinger_variance",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB05TechnicalIndicatorsBoundaries.test_b05_05_insufficient_bars_sma_guard",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB06MultiStrategyBoundaries.test_b06_01_extreme_meme_volatility_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB06MultiStrategyBoundaries.test_b06_02_negative_estimated_eps_pead",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB06MultiStrategyBoundaries.test_b06_03_penny_stock_exclusion",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB06MultiStrategyBoundaries.test_b06_04_zero_standard_deviation_bollinger",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB06MultiStrategyBoundaries.test_b06_05_extreme_market_oversold_clustering",
+      "status": "PASS",
+      "duration_s": 0.0001,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB07TradeSetupBoundaries.test_b07_01_stop_loss_clamped_above_zero",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB07TradeSetupBoundaries.test_b07_02_exact_risk_reward_2_boundary",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB07TradeSetupBoundaries.test_b07_03_sub_2_risk_reward_rejected",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB07TradeSetupBoundaries.test_b07_04_exact_3_pct_return_boundary",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB07TradeSetupBoundaries.test_b07_05_sub_3_pct_return_rejected",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB08BacktestBoundaries.test_b08_01_single_day_trade_lifecycle",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB08BacktestBoundaries.test_b08_02_gap_up_open_fill",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB08BacktestBoundaries.test_b08_03_severe_gap_down_stop_loss",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB08BacktestBoundaries.test_b08_04_exact_day_20_time_stop",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB08BacktestBoundaries.test_b08_05_zero_trade_bear_market_simulation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB09DesignSystemBoundaries.test_b09_01_wcag_contrast_ratio_verification",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB09DesignSystemBoundaries.test_b09_02_min_viewport_width_320px",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB09DesignSystemBoundaries.test_b09_03_200_pct_font_scaling_compatibility",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB09DesignSystemBoundaries.test_b09_04_color_independence_for_accessibility",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB09DesignSystemBoundaries.test_b09_05_css_token_minification_safety",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB10MarketPulseBoundaries.test_b10_01_market_closed_state",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB10MarketPulseBoundaries.test_b10_02_zero_candidates_counter_display",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB10MarketPulseBoundaries.test_b10_03_extreme_vix_panic_reading",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB10MarketPulseBoundaries.test_b10_04_trillion_dollar_market_cap_formatting",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB10MarketPulseBoundaries.test_b10_05_flat_percentage_formatting",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB11FilterRibbonBoundaries.test_b11_01_empty_filter_results",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB11FilterRibbonBoundaries.test_b11_02_reset_all_filters",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB11FilterRibbonBoundaries.test_b11_03_regex_search_sanitization",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB11FilterRibbonBoundaries.test_b11_04_case_insensitive_ticker_search",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB11FilterRibbonBoundaries.test_b11_05_all_four_filter_dimensions_active",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB12VirtualizedTableBoundaries.test_b12_01_zero_row_virtualizer",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB12VirtualizedTableBoundaries.test_b12_02_single_row_render",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB12VirtualizedTableBoundaries.test_b12_03_instant_bottom_jump_scroll",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB12VirtualizedTableBoundaries.test_b12_04_sorting_with_none_values",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB12VirtualizedTableBoundaries.test_b12_05_dynamic_viewport_height_resize",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB13CandlestickChartBoundaries.test_b13_01_zero_volume_bar_rendering",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB13CandlestickChartBoundaries.test_b13_02_huge_price_stock_scale",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB13CandlestickChartBoundaries.test_b13_03_zero_width_container_resize",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB13CandlestickChartBoundaries.test_b13_04_single_candlestick_series",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB13CandlestickChartBoundaries.test_b13_05_split_adjusted_price_continuity",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB14FactorRadarBoundaries.test_b14_01_all_zero_factor_scores",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB14FactorRadarBoundaries.test_b14_02_all_100_factor_scores",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB14FactorRadarBoundaries.test_b14_03_missing_sector_benchmark_default",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB14FactorRadarBoundaries.test_b14_04_fractional_score_rounding",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB14FactorRadarBoundaries.test_b14_05_vertex_tooltip_payload",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB15CatalystTimelineBoundaries.test_b15_01_empty_catalysts_notice",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB15CatalystTimelineBoundaries.test_b15_02_same_day_catalyst_countdown",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB15CatalystTimelineBoundaries.test_b15_03_past_catalyst_filtering",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB15CatalystTimelineBoundaries.test_b15_04_multiple_catalysts_same_date",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB15CatalystTimelineBoundaries.test_b15_05_estimated_catalyst_flag",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB16StockModalBoundaries.test_b16_01_escape_key_closes_modal",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB16StockModalBoundaries.test_b16_02_backdrop_click_dismissal",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB16StockModalBoundaries.test_b16_03_long_company_name_truncation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB16StockModalBoundaries.test_b16_04_body_scroll_lock_when_open",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB16StockModalBoundaries.test_b16_05_modal_network_error_retry",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB17PerformanceBoundaries.test_b17_01_slow_network_cold_load_budget",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB17PerformanceBoundaries.test_b17_02_offline_service_worker_fallback",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB17PerformanceBoundaries.test_b17_03_lru_cache_eviction_under_memory_pressure",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB17PerformanceBoundaries.test_b17_04_spa_router_fallback_to_index",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB17PerformanceBoundaries.test_b17_05_gzip_fallback_if_brotli_missing",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB18DockerfileBoundaries.test_b18_01_non_root_filesystem_write_boundary",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB18DockerfileBoundaries.test_b18_02_sigterm_graceful_shutdown",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB18DockerfileBoundaries.test_b18_03_isolated_data_mount",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB18DockerfileBoundaries.test_b18_04_apt_clean_cache_reduction",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB18DockerfileBoundaries.test_b18_05_missing_static_dir_graceful_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB19DockerComposeBoundaries.test_b19_01_oom_containment_under_memory_spike",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB19DockerComposeBoundaries.test_b19_02_cpu_throttling_ceiling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB19DockerComposeBoundaries.test_b19_03_public_interface_bind_rejection",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB19DockerComposeBoundaries.test_b19_04_log_max_footprint_ceiling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB19DockerComposeBoundaries.test_b19_05_restart_policy_unless_stopped",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB20CaddyBoundaries.test_b20_01_invalid_credentials_rejected",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB20CaddyBoundaries.test_b20_02_valid_credentials_accepted",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB20CaddyBoundaries.test_b20_03_health_probe_unauthenticated",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB20CaddyBoundaries.test_b20_04_upstream_down_502_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB20CaddyBoundaries.test_b20_05_hsts_preload_presence",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB21DeploymentBoundaries.test_b21_01_insufficient_host_ram_aborts",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB21DeploymentBoundaries.test_b21_02_insufficient_host_disk_aborts",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB21DeploymentBoundaries.test_b21_03_occupied_port_collision_aborts",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB21DeploymentBoundaries.test_b21_04_caddy_syntax_error_prevents_reload",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB21DeploymentBoundaries.test_b21_05_healthcheck_timeout_triggers_rollback",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB22TestRunnerBoundaries.test_b22_01_unknown_tier_option_exit_code",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB22TestRunnerBoundaries.test_b22_02_empty_test_suite_handling",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB22TestRunnerBoundaries.test_b22_03_fail_fast_flag_stops_execution",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB22TestRunnerBoundaries.test_b22_04_json_report_file_write",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB22TestRunnerBoundaries.test_b22_05_keyboard_interrupt_clean_exit",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB23AdversarialBoundaries.test_b23_01_oversized_ticker_input",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB23AdversarialBoundaries.test_b23_02_null_byte_injection_blocked",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB23AdversarialBoundaries.test_b23_03_negative_market_price_sanitized",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB23AdversarialBoundaries.test_b23_04_infinite_variance_sanitization",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier2_boundaries.TestB23AdversarialBoundaries.test_b23_05_high_concurrency_load_governor",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_01_momentum_tech_3pct_warm_cache",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_02_momentum_tech_5pct_live_sync",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_03_momentum_tech_10pct_cold_seed",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_04_momentum_healthcare_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_05_momentum_financials_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_06_momentum_consumer_10pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_07_earnings_tech_5pct_warm_cache",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_08_earnings_tech_10pct_live_sync",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_09_earnings_healthcare_5pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_10_earnings_financials_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_11_earnings_consumer_5pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_12_earnings_consumer_10pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_13_oversold_tech_3pct_cold_seed",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_14_oversold_healthcare_5pct_warm_cache",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_15_oversold_healthcare_10pct_live_sync",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_16_oversold_financials_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_17_oversold_consumer_5pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_18_oversold_consumer_10pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_19_quality_tech_5pct_live_sync",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_20_quality_tech_10pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_21_quality_healthcare_3pct_warm_cache",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_22_quality_financials_3pct_cold_seed",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_23_quality_financials_10pct_warm_cache",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_24_quality_consumer_5pct_live_sync",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_25_all_strategies_mega_cap_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_26_all_strategies_large_cap_5pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_27_all_strategies_mid_cap_3pct",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_28_cache_state_cold_boot_filter",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_29_cache_state_warm_disk_filter",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_30_cache_state_live_sync_filter",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_31_high_return_10pct_across_all_strategies",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_32_composite_factor_scores_contract",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_33_catalyst_nodes_contract",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_34_zero_leakage_between_sectors",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_35_zero_leakage_between_strategies",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier3_combinations.TestTier3CrossFeatureCombinations.test_comb_36_rest_api_json_serialization_fidelity",
+      "status": "PASS",
+      "duration_s": 0.0001,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_01_sp500_screener_pipeline",
+      "status": "PASS",
+      "duration_s": 0.0013,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_02_portfolio_risk_reward_lifecycle",
+      "status": "PASS",
+      "duration_s": 0.0002,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_03_concurrent_client_api_load",
+      "status": "PASS",
+      "duration_s": 0.0079,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_04_adr014_memory_profile",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_05_cold_boot_recovery_cycle",
+      "status": "PASS",
+      "duration_s": 0.0002,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_06_daily_scan_cron_lifecycle",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_07_complete_user_screener_journey",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_08_volatility_regime_adaptation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_09_earnings_season_surge_simulation",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_10_zero_spend_batch_rate_pacing",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_11_caddy_security_gateway_flow",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    },
+    {
+      "test_id": "test_tier4_workloads.TestTier4RealWorldWorkloads.test_workload_12_health_probe_readiness_gate",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": null
+    }
+  ]
+}

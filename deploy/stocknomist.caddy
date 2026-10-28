@@ -1,0 +1,34 @@
+stocknomist.168-222-27-36.sslip.io {
+    encode zstd gzip
+
+    # 1. Exempt public monitoring & health check probe from Basic Auth
+    @protected {
+        not path /health /health/* /api/health /api/health/*
+    }
+
+    # 2. HTTP Basic Authentication for protected application & API routes
+    basicauth @protected {
+        import /etc/caddy/stocknomist-password.hash
+    }
+
+    # 3. Hardened HTTP Security Headers
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+        Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+        -Server
+        -X-Powered-By
+    }
+
+    # 4. Proxy to loopback Docker container
+    reverse_proxy 127.0.0.1:18800 {
+        header_up Host {host}
+        header_up X-Real-IP {remote_host}
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto https
+        flush_interval -1
+    }
+}

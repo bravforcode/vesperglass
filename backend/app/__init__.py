@@ -1,0 +1,1 @@
+"""Stocknomist Backend Application Package."""

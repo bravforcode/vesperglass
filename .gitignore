@@ -1,0 +1,26 @@
+# Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Node & Frontend
+node_modules/
+dist/
+.vercel/
+
+# Testing & Linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local database files
+*.duckdb
+*.duckdb.wal
+*.db-wal
+*.db-shm
+data/cache/
+*.log
