@@ -28,10 +28,10 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div className="flex items-baseline gap-2">
               <span className="text-lg font-bold tracking-tight text-white font-sans">
-                STOCK<span className="text-token-cyan">NOMIST</span>
+                VESPER<span className="text-token-cyan">GLASS</span>
               </span>
               <span className="text-[10px] font-mono uppercase tracking-wider px-1.5 py-0.5 rounded bg-cyan-950/50 text-token-cyan border border-cyan-800/40">
-                PRO v1.0
+                QUANT v1.0
               </span>
             </div>
           </div>

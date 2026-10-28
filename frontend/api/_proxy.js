@@ -1,4 +1,4 @@
-const BACKEND_BASE = process.env.BACKEND_URL || 'https://stocknomist.168-222-27-36.sslip.io';
+const BACKEND_BASE = process.env.BACKEND_URL || 'https://vesperglass.168-222-27-36.sslip.io';
 const BACKEND_AUTH = process.env.BACKEND_AUTH || 'Basic YWRtaW46c3RvY2tub21pc3QyMDI2';
 
 export async function proxyToBackend(path, req, res) {
